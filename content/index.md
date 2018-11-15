@@ -1,25 +1,23 @@
 ---
-title: "Min fina titel"
+title: "Min me-sida"
 ---
-Min me-sida i kursen design
+Välkommen till Susannas me-sida
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/me.jpg?w=300" class="right" caption="Susanna"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Hej! Jag heter Susanna och detta är min me-sida i kursen Teknisk webbdesign och användbarhet som jag läser hösten 2018. Kursen är en del i kurspaketet Webbprogrammering och databaser på Blekinge Tekniska högskola.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Jag är sedan tidigare utbildad medicinsk sekreterare och har jobbat inom psykiatrisk slutenvård i fyra år med framför allt journalskrivning i journalsystemet NCS Cross. Jag har dock länge varit intresserad av systemutveckling och programmering och har till sist valt att söka tjänstledigt för studier för att kunna förkovra mig i detta på heltid. Jag hoppas på en framtid som systemvetare av något slag.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+För övrigt så bor jag i Nyköping tillsammans med min sambo och mina fågelspindlar. För tillfället har jag nio fågelspindlar varav den största och äldsta är en lasiodora parahybana på 7 år som heter Kokos. Jag vill naturligtvis skaffa ännu fler spindlar och på min önskelista finns bland annat grammostola pulchra, brachypelma schroederi, och nhandu tripepii. Men alla spindlar är välkomna hos mig. De är väldigt fina djur.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Detta innehåll är skrivet i markdown och man hittar innehållet i filen `content/index.md`.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+***
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+[FIGURE src="image/me.jpg?w=100" class="left"]
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+*Susanna studerar Webbprogrammring och databaser på BTH och Informatik med inriktning systemutveckling på MIUN.*
 
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+***
