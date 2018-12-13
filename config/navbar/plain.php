@@ -38,5 +38,10 @@ return [
             "url" => "rapport/index",
             "title" => "Rapport."
         ],
+        [ // changes
+            "text" => "Blogg: Dagens bild",
+            "url" => "blogg/index",
+            "title" => "Blogg: Dagens bild."
+        ],
     ],
 ];
