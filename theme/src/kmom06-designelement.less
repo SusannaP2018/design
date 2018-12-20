@@ -1,0 +1,93 @@
+/*!
+ * Stylesheet for design kmom06 - designelement.
+ *
+ * This stylesheet is for the design course and kmom06 where we use LESS.
+ */
+
+/**
+DO NOT REMOVE ABOVE COMMENT. CHANGE KMOM FOR EACH KMOM.
+*/
+
+@import "kmom04.less";
+//@import "@desinax/figure/less/";
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+//@backgroundColor: #333;
+@textColor: #575b5b;
+@fontFamilyHeadings: @fontFamilyCambria;
+@fontFamilyBody: @fontFamilyCambria;
+
+body {
+    //background-color: @backgroundColor;
+    color: @textColor;
+}
+
+.wrap-all {
+    background-color: #39CCCC;
+}
+
+.inner-wrap {
+    background-color: #A9FFFF;
+
+    //padding: 10px;
+}
+
+.inner-wrap-main {
+    opacity: 0.8;
+}
+
+.figure.right {
+    //display: none;
+}
+
+.outer-wrap {
+    background-color: #39CCCC;
+}
+
+.outer-wrap-main {
+    background-image: url("../../htdocs/img/blogg/nchromatus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.region-main {
+
+}
+
+.region-flash {
+    //display: none;
+}
+
+.my-navbar {
+    //background-color: #FFA469;
+    background-image: linear-gradient(#FFA469, #faefbb);
+    transform: skewY(2deg);
+    box-shadow: 5px 5px 5px black;
+}
+
+.site-footer {
+    background-image: linear-gradient(#FFA469, #faefbb);
+    transform: skewY(2deg);
+    box-shadow: 5px 5px 5px black;
+}
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}

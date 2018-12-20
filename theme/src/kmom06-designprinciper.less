@@ -1,0 +1,118 @@
+/*!
+ * Stylesheet for design kmom06 - designprinciper.
+ *
+ * This stylesheet is for the design course and kmom06 where we use LESS.
+ */
+
+/**
+DO NOT REMOVE ABOVE COMMENT. CHANGE KMOM FOR EACH KMOM.
+*/
+
+@import "kmom04.less";
+//@import "@desinax/figure/less/";
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+//@backgroundColor: #333;
+@textColor: #575b5b;
+@fontFamilyHeadings: @fontFamilyCalibri;
+@fontFamilyBody: @fontFamilyCalibri;
+
+body {
+    //background-color: @backgroundColor;
+    //color: @textColor;
+    color: lightgray;
+    //font-family: sans-serif;
+}
+
+.region-flash {
+    display: none;
+}
+
+.region-header-col-1 {
+    opacity: 0.0;
+}
+
+.wrap-all {
+    //background-color: #39CCCC;
+    background-color: black;
+    border: solid;
+    border-color: lightgray;
+}
+
+.inner-wrap {
+    background-color: black;
+
+    //padding: 10px;
+}
+
+.inner-wrap-main {
+    opacity: 0.8;
+    //opacity: 0.0;
+}
+
+.figure.right {
+    transform: rotate(20deg);
+
+}
+
+.outer-wrap {
+    background-color: black;
+    //background-color: #39CCCC;
+}
+
+.outer-wrap-main {
+    background-image: url("../../htdocs/img/theme/balbo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.region-main {
+
+}
+
+.region-flash {
+    //display: none;
+}
+
+.my-navbar {
+    color: black;
+    background-color: lightgray;
+    //border-color: white;
+    //border-style: solid;
+    //background-image: linear-gradient(#FFA469, #faefbb);
+    //transform: skewY(2deg);
+    //box-shadow: 5px 5px 5px dimgray;
+}
+
+.site-footer {
+    color: black;
+    background-color: lightgray;
+    //border-color: white;
+    //border-style: solid;
+    //background-image: linear-gradient(#FFA469, #faefbb);
+    //transform: skewY(2deg);
+    //box-shadow: 5px 5px 5px black;
+}
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
